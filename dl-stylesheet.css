@@ -1,11 +1,11 @@
-p, h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{
     margin-top: unset;
     padding-top: unset;
 }
 
 .container {
     display: flex;
-    text-wrap: wrap;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
 }
@@ -26,9 +26,13 @@ p, h1, h2, h3, h4, h5, h6{
     min-height: 100px;
 }
 
+.license aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .license article h3{
-    margin-top: unset;
-    padding-top: unset;
     border-right: 5px solid blue;
     border-bottom: 1px solid black;
 }
@@ -37,6 +41,33 @@ p, h1, h2, h3, h4, h5, h6{
 
 }
 
-.license article p{
-
+.license article aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.eye-color-name{
+    background-color: lightgray;
+    padding-bottom: 0;
+}
+
+.eye-color-box{
+    height: 30px;
+    width: 30px;
+}
+.eye-color-box.DarkBrown{
+    background-color: #50280a;
+}
+.eye-color-box.Brown{
+    background-color: saddlebrown;
+}
+.eye-color-box.Red{
+    background-color: darkred;
+}
+
+.license article p{
+    word-break: break-word;
+}
+
