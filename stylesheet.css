@@ -34,6 +34,48 @@ body{
             text-align: justify;
             text-justify: inter-word;
         }
+        img {
+            width: 100%;
+            border-radius: 1rem;
+        }
+
+        svg {
+            width: 100px;
+            height: 100px;
+            /*color: green;*/
+            background-color: lightgray;
+
+            &:hover{
+                background-color: black;
+            }
+        }
+
+        .floated{
+            width: 60%;
+
+
+            &.right{
+                float: right;
+                margin-left:1rem;
+            }
+
+            &.left{
+                float: left;
+                margin-right:1rem;
+            }
+        }
+
+        .floated-bg{
+            border-radius: 1rem;
+            border: 1px solid blue;
+            min-height: 100px;
+            background-image: url('nature.jpg');
+            color:white;
+            font-size: 2rem;
+            padding: 1rem;
+            /*object-fit: contain;*/
+            background-size: cover;
+        }
     }
 
     /*horizontal rule*/
