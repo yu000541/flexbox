@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fluid typography: rem vs em</title>
+
+    <style>
+        html{
+            font-size: 10px; /*Define base (or root) font size*/
+        }
+        body{
+            font-size: 16px; /*Define percent font size*/
+        }
+        h1{
+            font-size: 3rem; /*Two times the base font*/
+        }
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.2em; /*1.2 times the font size of the parent element*/
+        }
+    </style>
+</head>
+
+<body>
+<h1>Fluid Typography with em and rem Units</h1>
+<h2>This is my sub-header</h2>
+<p>Using relative units such as em and rem for typography provides flexibility and scalability across various screen
+    sizes and device settings. While em units are relative to the font size of the parent element, rem units are
+    relative to the root (html) element</p>
+<p>By using relative units like em and rem, you establish a flexible typographic system that adapts smoothly to changes
+    in font size preferences and viewport dimensions</p>
+</body>
+</html>

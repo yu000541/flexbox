@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fluid Typography: Clamp</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <style>
+    html{
+      font-size: 8px;
+    }
+    h1{
+      /*font-size: clamp(32px, 4vw,68px)*/
+      font-size: clamp(1rem,4vw + 1rem,6rem)
+    }
+  </style>
+</head>
+<body>
+<h1>Fluid Typography with clamp</h1>
+<h1>Fluid Typography with clamp, but this time with a long headline</h1>
+</body>
+</html>

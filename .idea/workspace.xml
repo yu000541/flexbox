@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f3e969-aee6-4f80-8e2e-06e1d208df07" name="Changes" comment="Built a simple fully responsive layout">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="08f3e969-aee6-4f80-8e2e-06e1d208df07" name="Changes" comment="Added images">
+      <change afterPath="$PROJECT_DIR$/custom-fonts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fluid-typography-clamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fluid-typography-rem-vs-em.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fluid-typography-with-viewport-widths.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="simple-responsive-layout" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,19 +54,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;simple-responsive-layout&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "responsive-type-and-custom-fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,7 +89,9 @@
       <updated>1727903994565</updated>
       <workItem from="1727903995914" duration="1789000" />
       <workItem from="1728332838269" duration="5916000" />
-      <workItem from="1728504956534" duration="4057000" />
+      <workItem from="1728504956534" duration="5617000" />
+      <workItem from="1728753374255" duration="1274000" />
+      <workItem from="1728936273746" duration="3186000" />
     </task>
     <task id="LOCAL-00001" summary="Added media queries example file">
       <option name="closed" value="true" />
@@ -106,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728338259457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added images">
+      <option name="closed" value="true" />
+      <created>1728511116171</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728511116171</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added media queries example file" />
     <MESSAGE value="Built a simple fully responsive layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Built a simple fully responsive layout" />
+    <MESSAGE value="Added images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added images" />
   </component>
 </project>
